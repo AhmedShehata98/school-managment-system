@@ -1,12 +1,14 @@
 export type ITeacherData = {
-  _fullname: string;
-  _birthOfDate: Date;
-  _specialty: string;
-  _phoneNumber: string;
-  _email: string;
-  _sallery: number;
-  _gender: "male" | "female";
+  fullname: string;
+  birthOfDate: Date;
+  specialty: string;
+  phone: string;
+  email: string;
+  password: string;
+  gender: "male" | "female";
 };
+
+export type TeacherSignupForm = ITeacherData;
 export interface ITeacher {
   _teacherData: ITeacherData | null;
   _studentAttendance: Array<any>;

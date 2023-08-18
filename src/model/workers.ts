@@ -1,6 +1,0 @@
-export class Workers {
-  /**
-   *
-   */
-  constructor() {}
-}
